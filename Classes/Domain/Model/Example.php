@@ -94,7 +94,7 @@ class Example extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 * @param \TYPO3\CMS\Extbase\Domain\Model\FileReference $image
 	 * @return void
 	 */
-	public function setImage($image) {
+	public function setImage($image = null) {
 		$this->image = $image;
 	}
 
